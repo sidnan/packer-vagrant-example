@@ -47,7 +47,10 @@ The scripts directory has
 # Packer lifecycle
 
 1. Get the OS image specified in the "variable" block
+![OS iso](https://github.com/sidnan/packer-vagrant-example/blob/master/images/OS-iso-image-url.png)
 2. Prepare the box for vagrant based on "builder" block
+![virtual type](https://github.com/sidnan/packer-vagrant-example/blob/master/images/virtual-type.png)
+![Configuration](https://github.com/sidnan/packer-vagrant-example/blob/master/images/configuration.png)
 3. Set the box with defaults tools, software based on the "Provisioner" block
 4. "post-processors" block - output the box to the path specified
 
@@ -55,3 +58,6 @@ The scripts directory has
 # Steps to prepare box
 
 1. packer build ubuntu.json
+
+
+# How to load the virtual box can be found [here](https://github.com/sidnan/vagrant-example)
